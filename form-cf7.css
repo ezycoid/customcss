@@ -1,0 +1,60 @@
+/*
+Class Kiri, Kanan, dan Pesan di tambahkan di contact form 7 nya.
+Contoh:
+<div class="kiri">
+#Source Code CF7 
+</div>
+*/
+
+
+
+
+
+.kiri{
+    width: 48%;
+    float: left;
+    margin-top: 10px;
+}
+.kanan{
+    width: 48%;
+    float: right;
+    margin-top: 10px;
+}
+.pesan{
+    clear: both;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea,
+.wpcf7 select
+{
+    border: 1px solid #919191;
+    color: #54595F;
+    font-weight: 500;
+}
+
+.wpcf7 input[type="text"]:focus,
+.wpcf7 input[type="email"]:focus,
+.wpcf7 input[type="tel"]:focus,
+.wpcf7 select:focus,
+.wpcf7 textarea:focus{
+    border: 1px solid #1C7CAE;
+}
+
+.wpcf7 input[type="submit"]{
+    background: #1C7CAE;
+    margin-top: 15px;
+}
+
+.wpcf7 input[type="submit"]:hover{
+    background-color: #0d5a82;
+}
+
+@media only screen and (max-width: 600px){
+    .kiri, .kanan, .wpcf7 input[type="submit"]{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
