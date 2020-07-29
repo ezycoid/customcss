@@ -1,9 +1,34 @@
 /*
 Class Kiri, Kanan, dan Pesan di tambahkan di contact form 7 nya.
 Contoh:
+
 <div class="kiri">
-#Source Code CF7 
+<label> Nama
+    [text* nama] </label>
 </div>
+
+<div class="kanan">
+<label> Email
+    [email* email] </label>
+</div>
+
+<div class="kiri">
+<label> Nomor Telepon
+[tel* telepon] </label>
+</div>
+
+<div class="kanan">
+<label> Keperluan
+[select* keperluan "Pilih Keperluan" "Riset/Penelitian" "Event/Kegiatan" "Media Partner" "Konsultasi" "Kontribusi Konten" "Lain - lain"] </label>
+</div>
+
+<div class="pesan">
+<label> Pesan
+    [textarea pesan] </label>
+</div>
+
+[recaptcha]
+[submit "Kirim Pesan"]
 */
 
 
